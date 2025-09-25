@@ -130,3 +130,88 @@ body {
 
 
 /* Aqui termina o index.html */
+
+/* inicio login */
+
+.login {
+    height: 600px;
+    width: 100%;
+    background-image: url('../assets/imgs/bg-jelly-fish-para_outras_pags.png');
+    background-size: cover;
+}
+
+.login .container {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    background-color: #dcdcdc;
+    border-radius: 10px;
+    text-align: center;
+    padding: 0px 50px;
+}
+
+.card-login {
+    width: 40%;
+    height: 250px;
+}
+
+.card h2 {
+    color: #e26d97;
+    margin-bottom: 0;
+    font-weight: bolder;
+}
+
+.card-login .formulario {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.campo {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    margin-bottom: 10px;
+}
+
+.campo span {
+    color: #e26d97;
+    font-weight: bolder;
+}
+
+.campo input {
+    width: 100%;
+    padding: 10px 0px;
+    background-color: white;
+    text-align: center;
+    border: solid 2px #32b9cd;
+    border-radius: 10px;
+}
+
+.botao {
+    width: 100px;
+    height: 25px;
+    border: none;
+    background-color: #ed145b;
+    border-radius: 5px;
+    color: white;
+    font-weight: bolder;
+    margin-top: 10px;
+}
+
+/* fim tela de login */
+
+/* inicio tela de cadastro */
+
+.card-cadastro {
+    width: 40%;
+    height: 450px;
+}
